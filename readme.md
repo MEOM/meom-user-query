@@ -4,6 +4,20 @@ This plugin is similar as [WP_Query Route To REST API](https://github.com/aucor/
 
 MEOM user query adds new route `/wp-json/user_query/args/` to REST API. You can query users with `WP_User_Query` args.
 
+## Install
+
+Use Composer to install the package.
+
+```bash
+composer require meom/meom-user-query
+```
+
+Or if living on the edge:
+
+```bash
+composer require meom/meom-user-query:dev-main
+```
+
 ## Return HTML from request
 
 Sometimes it's usefull to return `HTML` from request and use PHP templates for generating markup.
